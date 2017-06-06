@@ -1,0 +1,29 @@
+{
+  "name": "star-wars-web-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "description": "StarWarsWebServer",
+  "author": {
+    "name": "JosephBarth"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "azure-iot-device": "^1.1.13",
+    "azure-iot-device-http": "^1.1.13",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "gm": "^1.23.0",
+    "project-oxford": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.81.0",
+    "speaker": "^0.3.0",
+    "wav": "^1.0.1",
+    "xmlbuilder": "^9.0.0"
+  }
+}
